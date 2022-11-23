@@ -1,0 +1,7 @@
+﻿# build the docker image
+docker build . -t netapp
+
+# create container
+docker run -p 8080:80 --name netappinstance netapp
+
+# you can verify the app as running under http://localhost:8080/WeatherForecast
