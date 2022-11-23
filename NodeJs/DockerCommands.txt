@@ -1,0 +1,5 @@
+# build the image
+docker build . -t nodejsapi
+
+# run the node api
+docker run -p 8082:8080 --name nodejsapiinstance nodejsapi
