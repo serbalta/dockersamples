@@ -1,0 +1,5 @@
+# create image for REST API
+docker build  . -t springbootapi
+
+# run rest API
+docker run -p 8081:8080 --name springbootapiinstance springbootapi
