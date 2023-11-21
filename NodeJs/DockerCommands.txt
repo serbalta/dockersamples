@@ -3,3 +3,5 @@ docker build . -t nodejsapi
 
 # run the node api
 docker run -p 8082:8080 --name nodejsapiinstance nodejsapi
+
+# you can verify the API under http://localhost:8081/

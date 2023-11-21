@@ -3,3 +3,5 @@ docker build  . -t springbootapi
 
 # run rest API
 docker run -p 8081:8080 --name springbootapiinstance springbootapi
+
+# the api is reachable under http://localhost:8081/data
